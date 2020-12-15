@@ -1,0 +1,58 @@
+@import "src/common/variables";
+
+.common-info {
+  background: linear-gradient(360deg, #52ACFF 19.71%, #0E8BFF 41.46%, #0136F1 100%);;
+  display: flex;
+  flex-direction: column;
+  font-family: $main-font-family;
+}
+
+.main-page {
+  height: 100vh;
+  width: 100vw;
+}
+
+.login-form {
+}
+
+.full-height {
+  height: 100%;
+  width: 100%;
+}
+
+.app-name {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  padding: 9px;
+}
+
+.logo-container {
+  margin-top: 53px;
+}
+
+.white-text {
+  color: $main-white;
+}
+
+.gold-text {
+  color: $gold-color;
+}
+
+
+.carousel-item {
+  align-items: center;
+}
+
+.lang-switcher, .lang-switcher:hover, .lang-switcher:active, .lang-switcher:focus, .lang-switcher:visited {
+  background: $main-white;
+  color: $main-text-color;
+  border: 0 none;
+  margin: 24px 23px;
+  font-size: 15px;
+}
+
+.flag {
+  padding: 0 5px;
+}
